@@ -1,0 +1,73 @@
+body{
+	background-image:url("../images/form3.png") ;
+	background-size:cover;
+	text-align: center;
+	}
+
+#login{
+	font-size:2em;
+    color:white;
+    letter-spacing: 6px;
+    font-weight: 300;
+    font-family: 'Californian FB', sans-serif;
+    text-transform: uppercase;
+	padding:100px;
+}
+
+.form-group input[type="text"]{
+    outline: none;
+    font-size: 1.1em;
+    padding: 20px 10px 20px 10px;
+    border: none;
+    margin: 0 0 15px 0;
+    font-family: 'Open Sans', sans-serif;
+    background: none;
+    border-bottom: 2px solid #eee;
+    width: 20%;
+    color: white;
+    font-weight: 600;
+	margin-left: auto;
+    margin-right: auto;
+	min-width:200px;
+}
+#pass{
+    outline: none;
+    padding: 20px 10px 20px 10px;
+    border: none;
+    margin: 0 0 15px 0;
+    background: none;
+    border-bottom: 2px solid #eee;
+    width: 20%;
+    color: white;
+	margin-left: auto;
+    margin-right: auto;
+	min-width:200px;
+}
+
+input[type="submit"] {
+	background: url('../images/arrow.png') no-repeat 30% 45%;
+    height: 67px;
+    outline: none;
+    margin-top: 38px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 2px solid #fff;
+    width: 67px;
+}
+
+.button{
+	width:30%;
+	padding:15px;
+	margin:20px;
+	border-radius:25px;
+	background-color:transparent;
+	color:white;
+	font-size:20px;
+	min-width:250px;
+	transition:.5s;
+}
+
+.button:hover{
+	background-color:white;
+	color:blue;
+}
